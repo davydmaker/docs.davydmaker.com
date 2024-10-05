@@ -11,10 +11,8 @@ Both clauses, when used to compare a single value, are treated the same way by t
 **Example:**
 
 ```sql
--- Using '='
 explain select * from items t where t.category = 'ARMOR';
-
--- Using 'IN'
+-- or
 explain select * from items i where i.category in ('ARMOR');
 ```
 
