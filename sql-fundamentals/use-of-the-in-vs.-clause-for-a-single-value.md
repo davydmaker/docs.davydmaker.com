@@ -8,7 +8,7 @@ description: >-
 
 Both clauses, when used to compare a single value, are treated the same way by the SQL query optimizer. This means that there is no performance difference between the two.
 
-**Exemplo:**
+**Example:**
 
 ```sql
 -- Using '='
